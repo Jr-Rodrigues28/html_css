@@ -1,0 +1,2 @@
+Cores no css: link = https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value
+Roda de cores: link = https://color.adobe.com/pt/create/color-wheel https://colorhunt.co/
