@@ -15,19 +15,36 @@ body {
     color: #F6F6F6;
 }
 
+/* HEADER E NAV */
+.cabecalho {
+    /* Espaçamento entre as tags a(anoras) */
+    padding: 2% 0% 0% 15%; 
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+} 
+
 img {
     height: 400px;
     width: 500px;
 }
 
-.titulo-destaque {
-    color: #22d4fd;
-}
-
+/* MAIN */
 .apresentacao {
     /* Tirou pra colocar o padding para tirar o vacuo do scroll
     margin: 6% 6%;Aqui a margin foi para todos os lados, ou seja, no conteúdo inteiro fica para dentro s */
-    padding: 5% 10%; /* Pra da tudo em uma única tela o header e o footer */
+    
+    padding: 5% 10%; /* Pra da tudo em uma única tela o header e o footer, aqui tb controlo a distância
+                        entre o texto e o nav */
     display: flex; /* Coloca todo mundo em linha referente ao pai */ 
     align-items: center;  /* Alinha todos os elementos conforme a imagem */ 
     justify-content: space-between;
@@ -45,6 +62,10 @@ img {
     font-size: 18px;
     font-family: "Krona One", sans-serif;
 
+}
+
+.titulo-destaque {
+    color: #22d4fd;
 }
 
 .apresentacao__conteudo__texto {
