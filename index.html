@@ -7,7 +7,12 @@
     <title> Html e Css </title>
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link"> Home </a>
+            <a class="cabecalho__menu__link"> Sobre mim </a>
+        </nav>
+    </header>
         <main class="apresentacao"> 
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo"> O gavião-real, também chamado <strong class="titulo-destaque">cutucurim, gavião-de-penacho,
@@ -20,14 +25,28 @@
                     HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas
                     ideias. Vamos conversar?
                 </p>
+                <!-- para add /* */ seleciona o que se quer e crtl+k+c -->
+                <!-- Essa div foi criada para separar os buttons do texto-->
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://instagram.com"> Instagram </a>
-                    <a class="apresentacao__links__link" href="https://github.com"> GitHub </a>
+                    <h2 class="apresentacao__links__subtitulo"> Acesse minhas redes: </h2>
+                    <a class="apresentacao__links__link" href="https://instagram.com"> 
+                        <img src="./assests/instagram.png">
+                        Instagram 
+                    </a>
+                    <a class="apresentacao__links__link" href="https://github.com"> 
+                        <img src="./assests/github.png">
+                        GitHub 
+                    </a>
+                    <a class="apresentacao__links__link" href="https://linkedin.com"> 
+                        <img src="./assests/linkedin.png">
+                        Linkedin
+                    </a>
                 </div>
             </section>
-            <img src="H_harpyja0.jpeg" alt="Foto de uma ave chamada Harpia">
+            <img src="assests/H_harpyja0.jpeg" alt="Foto de uma ave chamada Harpia">
         </main>
-    </header>
-    <footer></footer>
+    <footer>
+        <p class="rodape"> Desenvolvido por Junior Rodrigues </p>
+    </footer>
 </body>
 </html>

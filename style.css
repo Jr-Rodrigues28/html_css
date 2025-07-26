@@ -6,7 +6,9 @@
 }
 
 body {
-    height: 100vh; /* Define a altura e largura da tela - remete ao viewport*/
+    /* Foi utilizado até começar a mexer no footer
+    height: 100vh; Define a altura e largura da tela - remete ao viewport */
+        
     box-sizing: border-box;  /* Permite que a tag filho permaneça sempre dentro da tag pai ou seja
                                 ficará sempre dentro do body */
     background-color: #000000;
@@ -23,7 +25,9 @@ img {
 }
 
 .apresentacao {
-    margin: 6% 6%;/* Aqui a margin foi para todos os lados, ouseja no conteúdo inteiro fica para dentro s*/
+    /* Tirou pra colocar o padding para tirar o vacuo do scroll
+    margin: 6% 6%;Aqui a margin foi para todos os lados, ou seja, no conteúdo inteiro fica para dentro s */
+    padding: 5% 10%; /* Pra da tudo em uma única tela o header e o footer */
     display: flex; /* Coloca todo mundo em linha referente ao pai */ 
     align-items: center;  /* Alinha todos os elementos conforme a imagem */ 
     justify-content: space-between;
@@ -51,19 +55,58 @@ img {
 /* Aqui a apresentacao__links é pai por estar em uma div 
    sempre que for usar a tag pai coloca display: flex; */
 .apresentacao__links {
-    display: flex;
+    display: flex; /* Automaticamente já fica na horizontal */
+    flex-direction: column; /* Deixa ele na horizontal */
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* BUTTONS */
 .apresentacao__links__link {
-    background-color: #22d4fd;
-    width: 250px;
+    /* Foi adcionado quando colocamos os icones */
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    /* background-color: #22d4fd; */
+    border: 2px solid #22d4fd;
+    /* width: 250px; */
+    width: 380px;
     text-align: center; 
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;  /* É o peso da fonte */
     padding: 21.5px; /* É a distancia entre a borda e o conteúdo */ 
     text-decoration: none;
-    color: #000000;
+    /* color: #000000; */
+    color: #F6F6F6;
     font-family: "Montserrat", sans-serif;
 }
+
+.apresentacao__links__link img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Efeito nos buttons */
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+/* FOOTER */
+.rodape {
+    background-color: #22d4fd;
+    color: #000000;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+} 

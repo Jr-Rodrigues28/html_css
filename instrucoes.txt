@@ -40,11 +40,17 @@ evitando margens fixas. Utilize Flexbox para alternar entre dispor elementos em 
 
 GOOGLE FONTS
 Google Fonts é uma biblioteca da Google com mais de 1000 fontes livres licenciadas. 
-Além de um diretório web interativo para navegar na biblioteca, existem atalhos para usar convenientemente 
-as fontes através do CSS.
+Além de um diretório web interativo para navegar na biblioteca, existem atalhos para usar 
+convenientemente as fontes através do CSS.
 
 GAP - Diz qual o espaçamento dos elementos filhos de um container.
 A propriedade gap não é exclusiva do Flexbox, porém é utilizada quase sempre em conjunto com ele. 
 Ela especifica no CSS o tamanho dos espaços entre linhas e colunas em layouts de grid, flex e multi-column. 
 Sua sintaxe é bem simples e ela aceita um ou dois valores.
+
+HOVER
+O hover é usado para selecionar elementos quando você passa o mouse sobre eles. 
+Essa e outras informações úteis sobre o hover você pode encontrar na documentação.
+
+PADDING - Define a distância entre o conteúdo e a borda.
 
