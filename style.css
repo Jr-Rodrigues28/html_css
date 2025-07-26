@@ -23,7 +23,7 @@ img {
 }
 
 .apresentacao {
-    margin: 8%; /* Aqui a margin foi para todos os lados */
+    margin: 6% 6%;/* Aqui a margin foi para todos os lados, ouseja no conteúdo inteiro fica para dentro s*/
     display: flex; /* Coloca todo mundo em linha referente ao pai */ 
     align-items: center;  /* Alinha todos os elementos conforme a imagem */ 
     justify-content: space-between;
@@ -31,6 +31,10 @@ img {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column; /* Para deixar em coluna */
+    gap: 40px; /* Deu um espaçamento entre: 1º texto, 2º texto e os buttons */
+
 }
 
 .apresentacao__conteudo__titulo {

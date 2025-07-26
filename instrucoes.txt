@@ -14,6 +14,14 @@ mas também outras unidades e conceitos muito utilizados no dia a dia de Dev Fro
 
 FLEXBOX guia completo - link = https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
+FLEXBOX
+Duas propriedades do Flexbox que, quando utilizadas no elemento-pai, são responsáveis pelo espaçamento 
+dos elementos-filhos?
+justify-content e align-items são mesmo as responsáveis pelo espaçamento dos elementos-filhos em um 
+contêiner Flexbox. A propriedade justify-content alinha os elementos no eixo principal, enquanto a 
+propriedade align-items alinha os elementos no eixo transversal. Continue praticando e explorando as 
+propriedades do Flexbox para criar layouts ainda mais complexos e responsivos.
+
 Flexbox: responsividade e alinhamento
 Crie uma página web responsiva onde os elementos se ajustam em diferentes tamanhos de tela, 
 evitando margens fixas. Utilize Flexbox para alternar entre dispor elementos em uma linha ou coluna.
@@ -34,3 +42,9 @@ GOOGLE FONTS
 Google Fonts é uma biblioteca da Google com mais de 1000 fontes livres licenciadas. 
 Além de um diretório web interativo para navegar na biblioteca, existem atalhos para usar convenientemente 
 as fontes através do CSS.
+
+GAP - Diz qual o espaçamento dos elementos filhos de um container.
+A propriedade gap não é exclusiva do Flexbox, porém é utilizada quase sempre em conjunto com ele. 
+Ela especifica no CSS o tamanho dos espaços entre linhas e colunas em layouts de grid, flex e multi-column. 
+Sua sintaxe é bem simples e ela aceita um ou dois valores.
+
