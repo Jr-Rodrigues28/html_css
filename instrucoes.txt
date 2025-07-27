@@ -1,5 +1,9 @@
+Voce vai nos site e copia uma por uma e substitui no root onde estão as variaveis de cores no 
+style.css
 Cores no css: link = https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value
 Roda de cores: link = https://color.adobe.com/pt/create/color-wheel https://colorhunt.co/
+Color Hunt: link = https://colorhunt.co/
+
 
 O que é Viewport?
 Em computação gráfica, a viewport é a porção de área visível de um plano e é utilizada
@@ -7,13 +11,11 @@ como unidade de medida no CSS para criar páginas Web 100% responsivas. Em outra
 a viewport varia de dispositivo para dispositivo, por exemplo em computadores, tablets e celulares, 
 cada tela possui dimensões diferentes e enquanto uma página não responsiva apresentaria os elementos 
 desproporcionais, uma página responsiva utilizando viewport teria seus elementos adequados a cada proporção.
-
 Se você demonstrou interesse pelo assunto e quer se aprofundar mais, 
 recomendamos que leia o artigo Guia de Unidades no CSS. Através dele você vai conhecer não só a Viewport, 
 mas também outras unidades e conceitos muito utilizados no dia a dia de Dev Front-end.
 
 FLEXBOX guia completo - link = https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
 FLEXBOX
 Duas propriedades do Flexbox que, quando utilizadas no elemento-pai, são responsáveis pelo espaçamento 
 dos elementos-filhos?
@@ -53,4 +55,3 @@ O hover é usado para selecionar elementos quando você passa o mouse sobre eles
 Essa e outras informações úteis sobre o hover você pode encontrar na documentação.
 
 PADDING - Define a distância entre o conteúdo e a borda.
-
