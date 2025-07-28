@@ -55,3 +55,7 @@ O hover é usado para selecionar elementos quando você passa o mouse sobre eles
 Essa e outras informações úteis sobre o hover você pode encontrar na documentação.
 
 PADDING - Define a distância entre o conteúdo e a borda.
+
+REM 
+o REM acompanha a unidade de medida do navegador. 
+1 rem é = 16, O calculo é número de pixl dividido por 16.
