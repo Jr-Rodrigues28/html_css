@@ -61,10 +61,12 @@ img {
     display: flex; /* Coloca todo mundo em linha referente ao pai */ 
     align-items: center;  /* Alinha todos os elementos conforme a imagem */ 
     justify-content: space-between;
+    gap: 82px; /* Foi add por conta da responsividade, para deixar a separação do texto da imagem */
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    /* width: 615px;  Foi colocado em pixels para ter responsividade */
+    width: 50%;
     display: flex;
     flex-direction: column; /* Para deixar em coluna */
     gap: 40px; /* Deu um espaçamento entre: 1º texto, 2º texto e os buttons */
@@ -105,7 +107,7 @@ img {
 }
 
 /* BUTTONS */
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     /* Foi adcionado quando colocamos os icones */
     display: flex;
     justify-content: center;
@@ -114,7 +116,7 @@ img {
     /* background-color: #22d4fd; */
     border: 2px solid var(--cor-terciaria);
     /* width: 250px; */
-    width: 380px;
+    width: 50%;  /* Foi colocado para porcentagem por conta da responsividade */
     text-align: center; 
     border-radius: 8px;
     font-size: 1.5rem;
@@ -126,14 +128,20 @@ img {
     font-family: var(--font-secundaria);
 }
 
-.apresentacao__links__link img{
+.apresentacao__links__navegacao img{
     width: 30px;
     height: 30px;
 }
 
 /* Efeito nos buttons */
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: #272727;
+}
+
+/* Criada por conta da responsividade */
+.apresentacao__imagem {
+    /* Metade da tag pai */
+    width: 50%;
 }
 
 /* FOOTER */
@@ -146,3 +154,22 @@ img {
     font-size: 1.5rem;
     font-weight: 400;
 } 
+
+
+/* Quando diminue para 1200px ela quebra pra telas menores */
+@media (max-width: 1200px) {
+    /* Quebra os nomes do cabecalho: Home e Sobre mim */
+    .cabecalho {
+        padding: 10%;
+    }  
+    
+    /* Centraliza os nomes: Home e Sobre mim */
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;  /* Faz com que a imagem saia de baixo e vá para parte de cima */
+    }
+
+}
