@@ -58,4 +58,7 @@ PADDING - Define a distância entre o conteúdo e a borda.
 
 REM 
 o REM acompanha a unidade de medida do navegador. 
-1 rem é = 16, O calculo é número de pixl dividido por 16.
+1 rem tem  valor de = 16, O calculo é número de pixel dividido por 16.
+
+PORCENTAGEM
+É a melhor forma de conseguir a responsividade. Mudando o width: 50%;
