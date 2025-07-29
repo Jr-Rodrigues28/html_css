@@ -62,3 +62,12 @@ o REM acompanha a unidade de medida do navegador.
 
 PORCENTAGEM
 É a melhor forma de conseguir a responsividade. Mudando o width: 50%;
+
+Definição para largura na versão mobile:
+A forma é utilizar uma largura percentual, como width: 100%;. Isso faz com que o elemento ocupe toda a largura disponível 
+do dispositivo, garantindo uma boa responsividade.
+@media (max-width: 1200px) {
+    .apresentacao__conteudo{
+        width: 100%;
+    }
+}

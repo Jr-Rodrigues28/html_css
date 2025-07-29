@@ -170,6 +170,23 @@ img {
 
     .apresentacao {
         flex-direction: column-reverse;  /* Faz com que a imagem saia de baixo e vá para parte de cima */
+        
+        /* Para telas menores */
+        padding: 5%;
+    
     }
+
+    /* Para telas menores */
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    /* Definição para largura na versão mobile:
+    A forma é utilizar uma largura percentual, como width: 100%;. Isso faz com que o elemento ocupe toda a largura 
+    disponível do dispositivo, garantindo uma boa responsividade.
+    @media (max-width: 1200px) {
+    .apresentacao__conteudo{
+        width: 100%;
+    }} */
 
 }
