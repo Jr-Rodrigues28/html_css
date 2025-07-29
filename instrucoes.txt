@@ -71,3 +71,5 @@ do dispositivo, garantindo uma boa responsividade.
         width: 100%;
     }
 }
+
+VERCEL - Deixa colocar o projeto no ar atravez do github
